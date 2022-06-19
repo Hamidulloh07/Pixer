@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 
 <head>
   <meta charset="UTF-8">
@@ -22,7 +22,7 @@
           <ul class="header-element">
             <li class="header-item"><a class="header-links" href="#bosh-sahifa">Bosh sahifa</a></li>
             <li class="header-item">
-              <a class="header-links" href="#xizmatlar">Xizmatlar</a>
+              <a class="header-links" href="./about.html">Xizmatlar</a>
               <ul class="subb-element">
                 <li class="subb-item"><a class="subb-link" href="#web">Vebsayt</a></li>
                 <li class="subb-item"><a class="subb-link" href="#tel">Telegram bot</a></li>
@@ -57,7 +57,7 @@
               Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
               sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
             </p>
-            <a href="#" class="hero-link">Xizmatlar bilan tanishish</a>
+            <a href="./about.html" class="hero-link">Xizmatlar bilan tanishish</a>
 
           </div>
           <iframe class="iframe" width="458" height="258" src="https://www.youtube.com/embed/6_pru8U2RmM"
@@ -141,7 +141,7 @@
           </ul>
           <span class="span-intro">
             <a class="span-link" href="#">Buyurtma berish</a>
-            <a class="span-link-2" href="#">Xizmatlar sahifasiga o’tish</a>
+            <a class="span-link-2" href="./about.html">Xizmatlar sahifasiga o’tish</a>
           </span>
         </div>
       </div>
@@ -168,59 +168,56 @@
                   Talablarni aniqlab chiqamiz
                 </h3>
                 <p class="sub-pruce-text">
-                Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
-                </p>
-              </div>
-            </li>
-
-            <li class="price-item">
-              <img src="img/look.png" alt="look-img" width="300" height="224">
-              <div class="sub-price">
-                <h3 class="sub-pruce-title">
-                  Bir necha yechimlarni taklif qilamiz
-                </h3>
-                <p class="sub-pruce-text">
                   Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
                 </p>
               </div>
             </li>
 
             <li class="price-item">
-              <img src="img/look.png" alt="look-img" width="300" height="258">
+              <img src="img/look-2.png" alt="look-img" width="300" height="224">
+              <div class="sub-price">
+                <h3 class="sub-pruce-title">
+                  Bir necha yechimlarni taklif qilamiz
+                </h3>
+                <p class="sub-pruce-text">
+                  nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                </p>
+              </div>
+            </li>
+
+            <li class="price-item">
+              <img src="img/look-3.png" alt="look-img" width="300" height="258">
               <div class="sub-price">
                 <h3 class="sub-pruce-title">
                   Loyiha uchun vaqt belgilaymiz
 
                 </h3>
                 <p class="sub-pruce-text">
-                  Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
-
+                  nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
                 </p>
               </div>
             </li>
 
             <li class="price-item">
-              <img src="img/look.png" alt="look-img" width="300" height="171">
+              <img src="img/wins.png" alt="look-img" width="300" height="171">
               <div class="sub-price">
                 <h3 class="sub-pruce-title">
                   A’lo sifat bilan bajarib topshiramiz
                 </h3>
                 <p class="sub-pruce-text">
-                    Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
-
+                  nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
                 </p>
               </div>
             </li>
 
             <li class="price-item">
-              <img src="img/look.png" alt="look-img" width="300" height="232">
+              <img src="img/step.png" alt="look-img" width="300" height="232">
               <div class="sub-price">
                 <h3 class="sub-pruce-title">
                   Qo’llab-quvvatlab boramiz
                 </h3>
                 <p class="sub-pruce-text">
-                  Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
-                </p>
+                  nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis </p>
               </div>
             </li>
 
@@ -229,8 +226,89 @@
         </div>
       </div>
     </section>
+
+    <section class="section-form">
+      <div class="container">
+        <div class="inner">
+          <div class="inner-title-div">
+            <h2 class="inner-title">
+              Buyurtma berish
+            </h2>
+            <p class="inner-text">
+              Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+              sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+            </p>
+          </div>
+
+          <form class="form" autocomplete="off" action="https://echo.htmlacademy.ru/" >
+
+            <label class="label">
+              <input class="input" type="text" name="user-name" placeholder="Ismingiz" required>
+            </label>
+
+            <label class="label">
+              <input class="input" type="tel" name="user-phone" placeholder="Telefon raqamingiz" required>
+            </label>
+            <select name="Xizmat" class="form-input" id="Xizmat">
+              <optionvalue="select" selected disabled hidden>Xizmat turi</optionvalue=>
+              <optgroup label="Xizmatlar">
+              <option value="Sayt tuzish">Sayt tuzish</option>
+              <option value="Telegram bot tuzish">Telegram bot tuzish</option>
+              <option value="SMM">SMM</option>
+              <option value="Grafik dizayn">Grafik dizayn</option>
+              <option value="CRM tizimlar">CRM tizimlar</option>
+              </optgroup>
+
+
+            </select>
+            <!-- <img src="./img/down.svg" class="dowm" alt="down"> -->
+            <button class="button" type="submit">Buyurtma berish</button>
+
+
+          </form>
+
+
+        </div>
+      </div>
+    </section>
   </main>
 
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer-div">
+          <p class="div-text">
+            Copyright 2020
+          </p>
+
+          <p class="div-text-2">
+            Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin
+            massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.
+          </p>
+
+        </div>
+
+        <ul class="footer-element">
+          <li class="footer-item"><p class="itim-text">Sayt sahifalari</p></li>
+          <li class="footer-item"><a href="#" class="element-link">Bosh sahifa</a></li>
+          <li class="footer-item"><a href="#" class="element-link">Xizmatlar</a></li>
+          <li class="footer-item"><a href="#" class="element-link">Portfolio</a></li>
+          <li class="footer-item"><a href="#" class="element-link">Jamoa</a></li>
+          <li class="footer-item"><a href="#" class="element-link">Blog</a></li>
+          <li class="footer-item"><a href="#" class="element-link">Kontaktlar</a></li>
+        </ul>
+
+        <ul class="footer-element2">
+          <li class="footer-itm-2"><p class="itim-text">Biz internetda</p></li>
+          <li class="footer-itm-2"><a href="https://telegram.com" class="footer-link-2"><img style="margin-right: 8px;" src="img/telegram-vector.svg" alt="telegram" class="link-img" width="22" height="23">Telegram</a></li>
+          <li class="footer-itm-2"><a href="https://facebook.com" class="footer-link-2"><img style="margin-right: 8px;" src="img/facebook-vector.svg" alt="facebook" class="link-img" width="22" height="23">Facebook</a></li>
+          <li class="footer-itm-2"><a href="https://instagram.com" class="footer-link-2"><img style="margin-right: 8px;" src="img/instagram-vector.svg" alt="instagram" class="link-img" width="22" height="23">Instagram</a></li>
+        </ul>
+
+
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
